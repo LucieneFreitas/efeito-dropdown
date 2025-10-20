@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Dropdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+        <h1>🎯 Efeito Dropdown Explicado</h1>
+        
+        <div class="explicacao">
+            <p><strong>😊 Em poucas palavras:</strong></p>
+            <p>É como uma gaveta escondida no menu! Você passa o mouse sobre um item e <strong>PUF!</strong> aparecem mais opções escondidas embaixo.</p>
+            <p><strong>💡 Serve para:</strong> Organizar muitas opções sem ocupar espaço na tela o tempo todo.</p>
+        </div>
+
+        <div class="demo-area">
+            <p style="margin-bottom: 20px; color: #666; font-weight: bold;">👇 PASSE O MOUSE sobre "Produtos" ou "Serviços"</p>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#">Produtos <span class="seta">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="#">📱 Eletrônicos</a>
+                            <a href="#">👕 Roupas</a>
+                            <a href="#">🏠 Casa & Decoração</a>
+                            <a href="#">📚 Livros</a>
+                        </div>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#">Serviços <span class="seta">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="#">💼 Consultoria</a>
+                            <a href="#">🎨 Design</a>
+                            <a href="#">💻 Desenvolvimento</a>
+                        </div>
+                    </li>
+                    
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <p class="instrucao">✨ Viu como as opções aparecem magicamente? Isso é o dropdown!</p>
+            
+            <div class="emoji">🥪 = 🍞 + [🥬🍅🧀🥓] escondidos!</div>
+        </div>
+    </div>
+</body>
+</html>
